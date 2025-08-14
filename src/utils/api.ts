@@ -14,3 +14,21 @@ export async function getDailyGame(){
     console.log(err);
   }
 }
+
+
+export async function getGamesData(){
+      try{
+      const res = await fetch(`${process.env.NEXT_API_URL}/next-api/?api=games`, 
+        {
+           next: {
+              revalidate: 4000
+           },
+           cache: 'force-cache'
+        }
+      );
+      return res.json();
+  }
+  catch(err){
+    console.log(err);
+  }
+}
