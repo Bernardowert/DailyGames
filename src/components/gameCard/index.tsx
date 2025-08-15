@@ -11,7 +11,7 @@ interface GameCardProps{
 
 export function GameCard({data}: GameCardProps){
     return(
-        <Link href={`/game/${data.id}`} className="w-full h-72 bg-slate-200 rounded-lg p-3 group">
+        <Link href={`/game/${data.id}`} className="w-full block h-72 bg-slate-200 rounded-lg p-3 group">
                 <div className="overflow-hidden w-full rounded-lg h-56">
                     <Image
                     src={data.image_url}
