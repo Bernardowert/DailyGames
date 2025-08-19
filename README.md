@@ -1,4 +1,5 @@
 ## Projeto - DailyGames
 
-<img width="678" height="764" alt="{2B9E06C9-4D92-42FB-AD1B-02706D92C68D}" src="https://github.com/user-attachments/assets/157077a0-5375-40f7-9f02-dcdc37c166b5" />
+<img width="213" height="222" alt="image" src="https://github.com/user-attachments/assets/d556f4f2-af75-4be5-8e28-f77b5ef0ad42" />
+
 
