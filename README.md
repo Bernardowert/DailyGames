@@ -1,5 +1,17 @@
 ## Projeto - DailyGames
 
-<img width="213" height="222" alt="image" src="https://github.com/user-attachments/assets/d556f4f2-af75-4be5-8e28-f77b5ef0ad42" />
 
+
+# Tecnologias
+
+- NextJS
+- TailwindCSS
+- TypeScript
+
+
+
+
+# Section Home
+
+<img width="724" height="407" alt="{F921DA23-F013-40D3-9203-699EB333CC1E}" src="https://github.com/user-attachments/assets/cfe61a13-3172-44b6-96e2-6b523483e926" />
 
