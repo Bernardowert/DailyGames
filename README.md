@@ -24,4 +24,7 @@
 ---
 
 ## 👤 Página User
+
+ <p class>Nessa página é onde o usuario encontrará seu dados e poderá compartilhar jogos e definir jogos preferidos</p>
+ 
  <img width="990" alt="User Page" src="https://github.com/user-attachments/assets/c8f260f6-b551-4dfe-80dd-1336f1e9d393" />
