@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import { Params } from "next/dist/server/request/params";
 
 export async function generateMetadata({params}:{params:Params}):Promise<Metadata>{
-    const {id} = await params;
+    const {id} = params;
     const data:GameProps = await getData(String(id));  
     
     if(!data){
