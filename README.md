@@ -10,7 +10,7 @@
 
 
 
-#                                                                         Page Home
+#                                                                        <h2>Pagina Home</h2>
 <img width="990" height="1156" alt="{0AF88299-5FD1-4C1F-B40F-E1187326D7B7}" src="https://github.com/user-attachments/assets/93f64f73-2fb4-43fd-aee9-0615871fbc33" />
 
 
