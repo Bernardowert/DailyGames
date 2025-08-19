@@ -11,12 +11,12 @@
   <p>Nessa página é onde o usuario encontrará seus jogos favoritos e terá um jogo aleaotorio selecionado pelo nosso sistema para recomendar semanalmente</p>
   <img width="990" alt="Home Page 1" src="https://github.com/user-attachments/assets/93f64f73-2fb4-43fd-aee9-0615871fbc33" />
 
-  ## 🏠 Página Home
+  ## 🏠 Página Search
   <p>Nessa página é onde o usuario encontrará seu jogo especifico através da barra de pesquisa</p>
 
   <img width="990" alt="Home Page 2" src="https://github.com/user-attachments/assets/60fcd154-7b0c-4088-9649-94f4f990e5cd" />
 
-  ## 🏠 Página Game Details
+  ## 🏠 Página Detalhes
   <p>Nessa página é onde o usuario terá todas as informações do jogo selecionado</p>
 
   <img width="990" alt="Home Page 3" src="https://github.com/user-attachments/assets/1a702cc1-d706-440f-9425-1adb688fdcf5" />
