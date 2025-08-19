@@ -32,3 +32,19 @@ export async function getGamesData(){
     console.log(err);
   }
 }
+
+
+export async function getData(id:string){
+    try{
+       const res = await fetch(`${process.env.NEXT_API_URL}/next-api/?api=game&id=${id}`, {
+        cache: 'force-cache',
+        next: {
+            revalidate: 4000
+        }
+       });
+       return res.json();
+    }
+    catch(erro){
+        console.log(erro);
+    }
+}
