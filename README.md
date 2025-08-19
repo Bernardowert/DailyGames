@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Projeto - DailyGames
 
-## Getting Started
+Aplicação desenvolvida com **Next.js**, **TailwindCSS** e **TypeScript**, que permite ao usuário explorar jogos, descobrir recomendações semanais e gerenciar suas preferências.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖼️ Previews das Páginas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<div>
+    <h3>🏠 Página Home</h3>
+    <p>Usuário encontra seus jogos favoritos e recebe uma recomendação semanal aleatória.</p>
+    <img width="100%" alt="Página Home" src="https://github.com/user-attachments/assets/93f64f73-2fb4-43fd-aee9-0615871fbc33" />
+  </div>
 
-## Learn More
+  <div>
+    <h3>🔎 Página Search</h3>
+    <p>Busca de jogos específicos através da barra de pesquisa.</p>
+    <img width="100%" alt="Página Search" src="https://github.com/user-attachments/assets/60fcd154-7b0c-4088-9649-94f4f990e5cd" />
+  </div>
 
-To learn more about Next.js, take a look at the following resources:
+  <div>
+    <h3>📖 Página Detalhes</h3>
+    <p>Exibe todas as informações do jogo selecionado.</p>
+    <img width="100%" alt="Página Detalhes" src="https://github.com/user-attachments/assets/1a702cc1-d706-440f-9425-1adb688fdcf5" />
+  </div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  <div>
+    <h3>👤 Página User</h3>
+    <p>Gerenciamento de dados do usuário, compartilhamento e favoritos.</p>
+    <img width="100%" alt="Página User" src="https://github.com/user-attachments/assets/c8f260f6-b551-4dfe-80dd-1336f1e9d393" />
+</div>
