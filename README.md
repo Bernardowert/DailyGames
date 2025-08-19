@@ -8,6 +8,7 @@
 ---
 
 ## 🏠 Página Home
+  <p>Nessa página é onde o usuario encontrará seus jogos favoritos e terá um jogo aleaotorio selecionado pelo nosso sistema para recomendar semanalmente</p>
   <img width="990" alt="Home Page 1" src="https://github.com/user-attachments/assets/93f64f73-2fb4-43fd-aee9-0615871fbc33" />
 
   <img width="990" alt="Home Page 2" src="https://github.com/user-attachments/assets/60fcd154-7b0c-4088-9649-94f4f990e5cd" />
