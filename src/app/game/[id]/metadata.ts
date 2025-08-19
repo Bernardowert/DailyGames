@@ -9,17 +9,17 @@ type Props = {
 
 export async function generateMetadata({params}:Props):Promise<Metadata>{
     const {id} = await params;
-    const data:GameProps = await getData(String(id));  
-    
-    if(!data){
-          return{
+    try{
+         const data:GameProps = await getData(String(id)); 
+          return {
+          title:data.title,
+          description: `${data.description.slice(0, 170)}...`
+        } 
+    }
+    catch{
+         return{
              title:"Jogo não encontrado",
              description: "Descrição não encontrada"
           }
-    }
-
-    return {
-      title:data.title,
-      description: `${data.description.slice(0, 170)}...`
     }
 }
