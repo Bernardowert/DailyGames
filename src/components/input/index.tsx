@@ -1,12 +1,18 @@
 'use client'
 
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react"
+import { FormEvent, useEffect, useState } from "react"
 import { FiSearch } from "react-icons/fi";
+
+
+interface InputProps{
+    text?:string;
+}
 
 export function Input(){
     const[input, setInput] = useState("");
     const router = useRouter();
+
    
     function handleSearch(e:FormEvent){
         e.preventDefault();

@@ -15,7 +15,7 @@ export default async function Search({params}:Props<'slug'>){
     const games:GameProps[] = await getSearchData(slug);
     
     return(
-        <main className="w-full text-black">
+        <main className="w-full text-black py-4">
            <ContainerGRID>
             <Input/>
 
