@@ -1,31 +1,32 @@
 import { ContainerGRID } from "@/components/containerGRID";
 import { GameProps } from "@/utils/types/game";
-import { Params } from "next/dist/server/request/params";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 import { Label } from "./components/label";
 import { GameCard } from "@/components/gameCard";
-import { getDailyGame, getData } from "@/utils/api";
+import { getData, getRandomGame } from "@/utils/api";
+import { Props } from "@/utils/types/params";
 
 
 export { generateMetadata } from "./metadata";
 
 
 
-
-export default async function GameDetail({params}: {params:Params}){
+export default async function GameDetail({params}:Props){
    const {id} = await params;
 
-   const data:GameProps = await getData(String(id));
-   const sortedGame:GameProps = await getDailyGame();
-
+   const data:GameProps = await getData(id);
+   const sortedGame:GameProps = await getRandomGame();
+  
+   console.log(id);
    if(!data){
      redirect("/");
    }
    
     return(
-      <main className="w-full text-black">
-        <div className="bg-black h-80 tablet:h-96 w-full relative">
+      <main className="w-full text-black pt-20">
+        <ContainerGRID>
+          <div className="bg-black h-80 tablet:h-96 w-full relative rounded-md overflow-hidden">
             <Image
               src={data.image_url}
               alt={data.title}
@@ -37,9 +38,6 @@ export default async function GameDetail({params}: {params:Params}){
               className="object-cover w-full h-80 tablet:h-96 opacity-75"
             />
         </div>
-
-
-        <ContainerGRID>
             <h1 className="font-bold text-xl my-4">{data.title}</h1>
             <p>{data.description}</p>
 
